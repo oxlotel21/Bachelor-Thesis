@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "bamod",
+  "version": "${version}",
+  "name": "bamod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/patrick/untitled"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/bamod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.oxolotel.bamod.client.ClientMain"
+    ],
+    "main": [
+      "me.oxolotel.bamod.Main"
+    ]
+  },
+  "mixins": [
+    "bamod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
